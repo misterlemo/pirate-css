@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contactus</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&family=RocknRoll+One&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <center><h1>Contact us</h1></center>
+    <hr>
+    <a href="index.html">Home</a>
+    <a href="pirates.html">Pirates</a>
+    <a href="ships.html">Ships</a>
+    <a href="flags.html">Flags</a>
+    <a href="contactus.html">Contact us</a>
+    <hr>
+    <div class="box-div">
+        <h3>About</h3>
+        <h4 class="text1">This version of the website is written using HTML code in conjunction with CSS. Its purpose is to show how a website can look
+            like using html and CSS without any JavaScript. It reveals aspects such as paragraphs, inputs, forms and 
+            tables and many more. Also there are specified styles on the styles.css file. Feel free to use the code experiment and enjoy yourself. </h3>
+        <div class="mypicdiv">
+            <img class="mypic" src="images/leo.png">
+            <h4>name: Leonidas Dimokas <br> email: misterlemo@gmail.com<br><a id="linkedin" href="https://www.linkedin.com/in/leonidas-dimokas-0742bb142/">LinkedIn: Leonidas Dimokas</a></h4>
+        </div>
+        <br><hr>
+        <form class="form" action="mailto:misterlemo@gmail.com" method="post" enctype="text/plain">
+            <label><h3>Add some information</h3></label>
+            <div class="name-email">
+                <div class="name">
+                    <label>Enter your name:</label><br>
+                    <input type="text" name="name" required>
+                </div><br>
+                <div class="email">
+                    <label>Enter your email:</label><br>
+                    <input type="email" name="email" required>
+                </div>
+            </div>
+            <br><br>
+            <input type="radio" name="gender" required value="male">
+            <label>Male</label>
+            <input type="radio" name="gender" required value="female">
+            <label>Female</label>
+            <input type="radio" name="gender" required value="other">
+            <label>Other</label><br><br><br>
+            <label>Upload your file:</label><br><br>
+            <input class="upload" type="file" name="uploadfile"><br><br>
+            <div>
+                <label><h3>Write which pirate, ship and flag you choose for the battle! And...tell us a few words.</h3></label>
+                <textarea name="name" rows="8" cols="80"></textarea><br><br>
+                <input class="submit" type="submit">
+            </div>
+        </form>
+    </div>
+    <!--each input field must have a name attribute to be submitted-->
+</body>
+</html>
