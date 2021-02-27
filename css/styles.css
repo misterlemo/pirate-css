@@ -162,3 +162,19 @@ h4{
     font-family: sans-serif;
     color: #276678;
 }
+
+.btn {
+    border-width: 0;
+    border-radius: 24px;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    background: #276678;
+    padding: 4px 17px 4px 17px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #a6bfcf;
+    text-decoration: none;
+  }
